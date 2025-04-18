@@ -28,7 +28,7 @@ with col2:
 
 # === Признаки ===
 is_alone = 1 if family_size == 1 else 0
-sex = 1 if sex == "Женщина" else 0
+sex = 1 if sex == "Женщины" else 0
 embarked = {"Southampton": 0, "Cherbourg": 1, "Queenstown": 2}[embarked]
 age_group = {"Ребёнок (0-12)": 0, "Подросток (13-18)": 1, "Взрослый (19-55)": 2, "Пожилой (55+)": 3}[age_group]
 
